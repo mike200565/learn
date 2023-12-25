@@ -27,3 +27,7 @@ make
 
 1. 鸟哥的Linux私房菜 Ubuntu版: https://lijilei.com/linux/bird-linux.htm
 2. Google Bard:  https://bard.google.com/
+
+
+lastcmd=$(history 1 |  { read _ cmd; echo \$cmd; })
+
